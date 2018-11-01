@@ -35,7 +35,8 @@ Project Description:
 	X,Y,Z axis from IIS328DQ at every 0.1 seconds.Acceleration reading task is configured in interrupt based logic.
 	Where timer 3 is used to generate an interrupt on every 100 milliseconds.
 	BMP180 sensor reading task is running in main loop.
-	There is no HAL_DELAY function used in main loop. the action of BMP180 sensor reading is performed by using HAL_GetTick() 		method. which returns run time value in microseconds. for more details check main.c file.
+	There is no HAL_DELAY function used in main loop. the action of BMP180 sensor reading is performed by using HAL_GetTick()
+	method. which returns run time value in microseconds. for more details check main.c file.
 
 Thank you 
 for any issue or clarification contact me on mail:
