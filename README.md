@@ -26,3 +26,6 @@ Connections :
 	GND				GND				GND
 	3.3V				CS				--
 	GND				SDO				--
+
+for any issue or clarification contact me on mail:
+mailto:shubhamtrivedi95@gmail.com
