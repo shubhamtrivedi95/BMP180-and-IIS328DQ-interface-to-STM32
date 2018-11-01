@@ -5,9 +5,13 @@ full repository can be find in DataLogger folder.
 All the screenshots of working system is stored in Image folder.
 
 Steps to extract the code in SW4STM32 IDE.
+
 	1.	Download and Unzip this repository.
+
 	2.	open SW4STM32 and navigate to File>Open Projects from File System...
+	
 	3.	click on Directory and brawser the directory of DataLogger.
+		
 	4.	The hit enter and the project will be import to your IDE shortly.
 	
 	
