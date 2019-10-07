@@ -478,7 +478,7 @@ void ReadBMP180(){
 			X2=(B1*((B6*B6)>>12))>>16;				// please refer section 3.5 in
 			X3 = (X1 + X2 + 2) >> 2;				// BMP180 sensor datasheet.
 			B4=(uint32_t)AC4*(uint32_t)(X3+32768)>>15;					//
-			B7=(uint32_t)(UP-B3)*(5000>>sampling_mode);		//
+			B7=(uint32_t)(UP-B3)*(50000>>sampling_mode);		//
 			if (B7 < 0x80000000)					//
 				p = (B7 * 2) / B4;					//
 			else									//
